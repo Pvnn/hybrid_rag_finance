@@ -54,8 +54,8 @@ def chunk_document_with_context(document: Document, chunk_size=1000, chunk_overl
       **document.metadata,
       "chunk_index" : i,
       "chunk_size" : len(chunk_text),
-      "quarters_mentioned" : quarters,
-      "document_type": "earnings_report",  # Can be parameterized
+      "quarters_mentioned" : ", ".join(quarters) if quarters else "Unknown",
+      "document_type": "earnings_report",
       "contains_financial_data": has_financial_indicators(chunk_text)
     }
 
