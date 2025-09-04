@@ -3,4 +3,4 @@ env/
 .env*
 __pycache__/
 data/
-chroma_db/
+faiss_db/

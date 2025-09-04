@@ -2,6 +2,8 @@ import google.generativeai as genai
 from langchain_google_genai import GoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 import os
 from dotenv import load_dotenv
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))  
+PROJECT_ROOT = os.path.dirname(BASE_DIR)              
 
 load_dotenv()
 
