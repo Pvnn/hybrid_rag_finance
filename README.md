@@ -67,7 +67,7 @@ Final Answer with Source Attribution
 - **Error Handling**: Graceful fallback for complex queries
 
 ### **Query Routing Logic**
-```python
+```
 CSV Indicators:
 - calculate, total, sum, average, variance
 - forecast, actual, revenue, department
@@ -81,7 +81,7 @@ PDF Indicators:
 
 ***
 
-## 🎯 Capabilities  
+## Capabilities  
 
 ### **PDF Document Queries (RAG)**
 - "Why did Q2 2024 performance disappoint?"
